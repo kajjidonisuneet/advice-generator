@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.main-box {
+    background-color: var(--DarkBlue);
+    padding:40% 3% 40% 3%;
+}
+
+.advice-box {
+    background-color: var(--DarkGrayishBlue);
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-ID {
+    color: var(--NeonGreen);
+    font-size: 15px;
+    font-weight: 100; /* not having any effect */
+}
+
+.advice {
+    color: var(--LightCyan);
+    font-size: 28px;
+    padding: 20px 25px 25px 25px;
+}
+
+.divider-desktop{
+    display: none;
+}
+
+.advice-genrate-button{
+    background-color: var(--NeonGreen);
+    display: flex;
+    padding: 5%;
+    border: 0px;
+    border-radius: 5em;
+    position: relative;
+    top: 30px; /*this is still done manualy*/
+}
+
+.advice-genrate-button:hover{
+    box-shadow: 0 0 40px 0px var(--NeonGreen);
+    cursor:pointer;
+}
+
+@media (min-width: 376px) {
+
+    .main-box {
+        padding: 10% 35% 10% 35%;
+    }
+
+    .divider-mobile {
+        display: none;
+    }
+
+    .divider-desktop {
+        display: block;
+    }
+
+    .advice-genrate-button{
+        padding: 3%;
+    }
+    
+    .advice-genrate-button:hover{
+        box-shadow: 0 0 25px 0px var(--NeonGreen);
+        cursor:pointer
+    }
+
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
