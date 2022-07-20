@@ -11,7 +11,7 @@ function handelError(data) {
 
 function adviceHTML(adviceID, adviceText) {
     adviceIdElement.textContent = `ADVICE #${adviceID}`
-    adviceElement.textContent = adviceText
+    adviceElement.textContent = `"${adviceText}"`
 }
 
 function adviceSlipGenrator(adviceURL) {

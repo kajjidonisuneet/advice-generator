@@ -36,13 +36,18 @@ body {
 .advice-ID {
     color: var(--NeonGreen);
     font-size: 15px;
-    font-weight: 100; /* not having any effect */
+    font-weight: 100;
+    letter-spacing:3px /* not having any effect */
 }
 
 .advice {
     color: var(--LightCyan);
     font-size: 28px;
     padding: 20px 25px 25px 25px;
+}
+
+.divider-mobile {
+    max-width:85%;
 }
 
 .divider-desktop{
@@ -64,7 +69,7 @@ body {
     cursor:pointer;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 451px) {
 
     .main-box {
         padding: 10% 35% 10% 35%;
@@ -76,6 +81,7 @@ body {
 
     .divider-desktop {
         display: block;
+        max-width:85%;
     }
 
     .advice-genrate-button{
