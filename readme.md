@@ -2,15 +2,15 @@
 
 Advice Generator is a static web page that renders advice text retrevied from an API. This project is built without using any JS/CSS libraries and to demonstrate AJAX request in JS.
 
-Deployed link - 
+Deployed link - <a href='https://62d7d4f4d788632c85286338--phenomenal-beignet-4e34a1.netlify.app/'> click here</a>.
 
 This page has a mobile and destop resposive design (set at 450px) and built as per below design.
 
-Desktop Design.
+Desktop Design.<br>
 ![](images/desktop-design.jpg)
 
 
-Mobile Design.
+Mobile Design.<br>
 ![](images/mobile-design.jpg)
 
 
